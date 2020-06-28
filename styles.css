@@ -32,6 +32,11 @@
             text-decoration: none;
         }
         
+        .nav-link:hover {
+            color: #fff;
+            text-decoration: none;
+        }
+        
         #product-container {
             height: 300px;
             display: flex;

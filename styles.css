@@ -8,7 +8,7 @@ h1 {
 }
 
 main {
-    padding: 20px;
+    padding: 40px;
 }
 
 body {
@@ -46,14 +46,12 @@ body {
 
 #intro {
     text-align: center;
-    padding: 20px;
 }
 
 #intro-video {
     text-align: center;
     width: 100% !important;
     height: auto !important;
-    padding: 20px;
 }
 
 #product-container {

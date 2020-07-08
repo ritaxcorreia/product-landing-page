@@ -34,6 +34,9 @@ body {
     text-align: end;
     word-spacing: 5px;
     padding-right: 15px;
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
 }
 
 .nav-link {
@@ -101,12 +104,13 @@ body {
 
 footer {
     text-align: center;
-    position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
     background-color: white;
     text-align: center;
+    box-sizing: border-box;
+    position: relative;
 }
 
 #logo {
@@ -130,6 +134,45 @@ h3 {
     font-weight: bold;
     text-decoration: underline;
     color: #393939;
+}
+
+.abutton {
+    display: inline-block;
+    padding: 0.5em 3em;
+    border: 0.16em solid #b1b1b1;
+    margin: 0 0.3em 0.3em 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    color: #393939;
+    text-align: center;
+    transition: all 0.15s;
+}
+
+.abutton:hover {
+    color: #DDDDDD;
+    border-color: #DDDDDD;
+}
+
+.abutton:active {
+    color: #BBBBBB;
+    border-color: #BBBBBB;
+}
+
+@media all and (max-width:30em) {
+    .abutton {
+        display: block;
+        margin: 0.4em auto;
+    }
+}
+
+input[type=email] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 0 0.3em 0.3em 0;
+    box-sizing: border-box;
 }
 
 
